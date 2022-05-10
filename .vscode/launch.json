@@ -11,6 +11,15 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
+            "program": "${workspaceFolder}/app.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch file",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
             "program": "${file}"
         }
     ]
